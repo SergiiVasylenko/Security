@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security", "Security\Security.csproj", "{616108D2-878C-4931-B38A-836998AC5A43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.Tests", "Security.Tests\Security.Tests.csproj", "{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{616108D2-878C-4931-B38A-836998AC5A43}.Release|x64.Build.0 = Release|Any CPU
 		{616108D2-878C-4931-B38A-836998AC5A43}.Release|x86.ActiveCfg = Release|Any CPU
 		{616108D2-878C-4931-B38A-836998AC5A43}.Release|x86.Build.0 = Release|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Debug|x64.Build.0 = Debug|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Debug|x86.Build.0 = Debug|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Release|x64.ActiveCfg = Release|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Release|x64.Build.0 = Release|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Release|x86.ActiveCfg = Release|Any CPU
+		{1912EB6D-2E73-445E-9976-9E1DEB0EC21D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

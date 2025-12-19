@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SafeVault Input</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; }
+    form { max-width: 420px; display: grid; gap: 0.75rem; }
+    label { font-weight: 600; }
+    input { padding: 0.5rem; font-size: 1rem; }
+    .ok { color: #0a7; }
+    .err { color: #c00; }
+  </style>
+</head>
+<body>
+  <h1>SafeVault</h1>
+  <form id="userForm" action="/submit" method="post" novalidate>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" minlength="3" maxlength="100" pattern="[A-Za-z0-9_.-]+" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" maxlength="100" required />
+
+    <button type="submit">Submit</button>
+  </form>
+  <p id="result"></p>
+
+  <script>
+    const form = document.getElementById('userForm');
+    const result = document.getElementById('result');
+    const username = document.getElementById('username');
+    const email = document.getElementById('email');
+
+    // Light client-side sanitization for UX (server still validates strictly)
+    username.addEventListener('input', (e) => {
+      const v = e.target.value;
+      const cleaned = v.replace(/[^A-Za-z0-9_.-]/g, '').slice(0, 100);
+      if (cleaned !== v) e.target.value = cleaned;
+    });
+    email.addEventListener('input', (e) => {
+      const v = e.target.value;
+      // remove dangerous characters and spaces
+      const cleaned = v.replace(/[\p{C}<>\'"`\s]/gu, '').slice(0, 100).toLowerCase();
+      if (cleaned !== v) e.target.value = cleaned;
+    });
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      result.textContent = '';
+      const fd = new FormData(form);
+      const payload = { username: fd.get('username'), email: fd.get('email') };
+      try {
+        const r = await fetch('/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await r.json();
+        if (!r.ok) throw new Error(data?.error || 'Validation failed');
+        result.className = 'ok';
+        result.textContent = `Created user with ID ${data.userId}`;
+      } catch (err) {
+        result.className = 'err';
+        result.textContent = err.message;
+      }
+    });
+  </script>
+  <!-- NOTE: For real CSRF protection, use antiforgery tokens on server and include them here. -->
+  <!-- This demo focuses on input validation and parameterized queries. -->
+  </body>
+  </html>

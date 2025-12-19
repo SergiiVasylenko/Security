@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="edd44acf-f1a5-464c-b82d-d882fd1b856c" name="SergiiVasylenko(Ext)@WDPJNDS3 2025-12-19 16:17:17" runUser="AzureAD\SergiiVasylenko(Ext)" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-12-19T16:17:17.4605932+02:00" queuing="2025-12-19T16:17:17.4605940+02:00" start="2025-12-19T16:17:13.5730189+02:00" finish="2025-12-19T16:17:22.2762878+02:00" />
+  <TestSettings name="default" id="7c43f28a-760c-46a1-902c-63630a83cc32">
+    <Deployment runDeploymentRoot="SergiiVasylenko_Ext__WDPJNDS3_2025-12-19_16_17_17" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6f60e79b-44d1-422e-aef4-6fdb2330e278" testId="12bf1d9d-0969-c040-3563-d3c6a4070625" testName="TestForXSS" computerName="WDPJNDS3" duration="00:00:00.1037060" startTime="2025-12-19T16:17:21.4429330+02:00" endTime="2025-12-19T16:17:21.5466389+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f60e79b-44d1-422e-aef4-6fdb2330e278">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c5a5068f-1991-4d46-94f2-7624ec9be846" testId="813e766a-68aa-96d4-ad49-2f6e968d9e2a" testName="Admin_Can_Access_Dashboard_Html" computerName="WDPJNDS3" duration="00:00:01.2384860" startTime="2025-12-19T16:17:17.3591418+02:00" endTime="2025-12-19T16:17:18.5976278+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5a5068f-1991-4d46-94f2-7624ec9be846">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e46c9979-05c8-4fc7-a5ce-a93bbf423a91" testId="f3f5b662-4f83-2920-aece-5237b58ba36f" testName="Search_UsesEscapedLikeAndParameters" computerName="WDPJNDS3" duration="00:00:00.1131650" startTime="2025-12-19T16:17:21.7049742+02:00" endTime="2025-12-19T16:17:21.8181380+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e46c9979-05c8-4fc7-a5ce-a93bbf423a91">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3fc5de27-001d-44c6-b077-3cffbabdb993" testId="e6d5f357-85af-d2ec-ff0b-c1c0d72ddb70" testName="Login_WrongPassword_Returns401" computerName="WDPJNDS3" duration="00:00:01.1831550" startTime="2025-12-19T16:17:18.7470129+02:00" endTime="2025-12-19T16:17:19.9301657+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fc5de27-001d-44c6-b077-3cffbabdb993">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="970c982a-830b-494e-a173-b1ee408d75fe" testId="bc1d1142-7d6f-23fe-58dd-04c7e67a2e3d" testName="Submit_Rejects_EmailWithDisplayNameCanonicalization" computerName="WDPJNDS3" duration="00:00:00.1064050" startTime="2025-12-19T16:17:21.9156744+02:00" endTime="2025-12-19T16:17:22.0220785+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="970c982a-830b-494e-a173-b1ee408d75fe">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ac296acc-81db-4362-914b-1fdaa64695c0" testId="67be912c-1e5d-bb00-43f4-79a352f5d563" testName="TestForSQLInjection" computerName="WDPJNDS3" duration="00:00:00.0737830" startTime="2025-12-19T16:17:21.3690541+02:00" endTime="2025-12-19T16:17:21.4428366+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac296acc-81db-4362-914b-1fdaa64695c0">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d06ee316-bcae-418c-8ca5-40fa5e873823" testId="c00e4daa-cfd4-56ad-7d04-258f9d738bdd" testName="Admin_Can_Access_AdminOnly" computerName="WDPJNDS3" duration="00:00:02.3483160" startTime="2025-12-19T16:17:15.0082903+02:00" endTime="2025-12-19T16:17:17.3565076+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d06ee316-bcae-418c-8ca5-40fa5e873823">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b931e516-fb08-4793-8d3f-87984ece2832" testId="7000ddf1-a07d-b413-3cac-f36fd85f7ced" testName="NonAdmin_Is_Forbidden_On_AdminOnly" computerName="WDPJNDS3" duration="00:00:01.3752590" startTime="2025-12-19T16:17:19.9304794+02:00" endTime="2025-12-19T16:17:21.3057384+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b931e516-fb08-4793-8d3f-87984ece2832">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a430ed2d-c1f2-4452-994f-72a75b95c812" testId="283d3ac6-7ec2-342c-5674-feeda5da634d" testName="Submit_Rejects_JavascriptSchemeInEmail" computerName="WDPJNDS3" duration="00:00:00.1228420" startTime="2025-12-19T16:17:22.0270532+02:00" endTime="2025-12-19T16:17:22.1498972+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a430ed2d-c1f2-4452-994f-72a75b95c812">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="662e684a-5a50-444d-a779-8698f65ed638" testId="1ef205da-2fac-160d-6f08-4413aee8602a" testName="Admin_WithInvalidToken_Returns401" computerName="WDPJNDS3" duration="00:00:00.0750140" startTime="2025-12-19T16:17:18.5977050+02:00" endTime="2025-12-19T16:17:18.6727184+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="662e684a-5a50-444d-a779-8698f65ed638">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a96509b-4b33-42b2-8c87-f8e16e39304b" testId="d9f47d1f-61fc-44f0-d272-d67394bedcf8" testName="GetByUsername_BlocksSQLi" computerName="WDPJNDS3" duration="00:00:00.1578050" startTime="2025-12-19T16:17:21.5471338+02:00" endTime="2025-12-19T16:17:21.7049388+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a96509b-4b33-42b2-8c87-f8e16e39304b">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9609e7bd-82e3-4f48-87e4-1bb70e4237e9" testId="92940694-c582-0922-eeca-42a4f78224d7" testName="Unauthenticated_Is_Unauthorized_On_AdminOnly" computerName="WDPJNDS3" duration="00:00:00.0577930" startTime="2025-12-19T16:17:21.3057852+02:00" endTime="2025-12-19T16:17:21.3635769+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9609e7bd-82e3-4f48-87e4-1bb70e4237e9">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8d97e1c7-185a-4771-a3b3-c5e3938c557a" testId="75f614a6-abcc-cc58-7c44-ceddc64b7562" testName="Search_Rejects_ScriptLikePayload" computerName="WDPJNDS3" duration="00:00:00.0410310" startTime="2025-12-19T16:17:21.8745851+02:00" endTime="2025-12-19T16:17:21.9156161+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d97e1c7-185a-4771-a3b3-c5e3938c557a">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a8af827-7fb8-4a16-8e65-7eab92309db4" testId="1794aeaa-9a03-a8e1-de8e-7d223883fcee" testName="Login_UnknownUser_Returns401" computerName="WDPJNDS3" duration="00:00:00.0740740" startTime="2025-12-19T16:17:18.6728537+02:00" endTime="2025-12-19T16:17:18.7469265+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a8af827-7fb8-4a16-8e65-7eab92309db4">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="73a7499b-d3fa-4f71-a7e8-94b2790daaa1" testId="c93efb03-643b-73a9-daf4-fcadb5dd9c16" testName="GetByUsername_Rejects_Xp_Prefix" computerName="WDPJNDS3" duration="00:00:00.0561160" startTime="2025-12-19T16:17:21.8184285+02:00" endTime="2025-12-19T16:17:21.8745446+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73a7499b-d3fa-4f71-a7e8-94b2790daaa1">
+      <Output>
+        <StdOut>info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Admin_WithInvalidToken_Returns401" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="1ef205da-2fac-160d-6f08-4413aee8602a">
+      <Execution id="662e684a-5a50-444d-a779-8698f65ed638" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestAuth" name="Admin_WithInvalidToken_Returns401" />
+    </UnitTest>
+    <UnitTest name="GetByUsername_BlocksSQLi" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="d9f47d1f-61fc-44f0-d272-d67394bedcf8">
+      <Execution id="4a96509b-4b33-42b2-8c87-f8e16e39304b" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestParameterizedQueries" name="GetByUsername_BlocksSQLi" />
+    </UnitTest>
+    <UnitTest name="Unauthenticated_Is_Unauthorized_On_AdminOnly" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="92940694-c582-0922-eeca-42a4f78224d7">
+      <Execution id="9609e7bd-82e3-4f48-87e4-1bb70e4237e9" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestAuth" name="Unauthenticated_Is_Unauthorized_On_AdminOnly" />
+    </UnitTest>
+    <UnitTest name="TestForSQLInjection" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="67be912c-1e5d-bb00-43f4-79a352f5d563">
+      <Execution id="ac296acc-81db-4362-914b-1fdaa64695c0" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestInputValidation" name="TestForSQLInjection" />
+    </UnitTest>
+    <UnitTest name="Admin_Can_Access_Dashboard_Html" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="813e766a-68aa-96d4-ad49-2f6e968d9e2a">
+      <Execution id="c5a5068f-1991-4d46-94f2-7624ec9be846" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestAuth" name="Admin_Can_Access_Dashboard_Html" />
+    </UnitTest>
+    <UnitTest name="GetByUsername_Rejects_Xp_Prefix" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="c93efb03-643b-73a9-daf4-fcadb5dd9c16">
+      <Execution id="73a7499b-d3fa-4f71-a7e8-94b2790daaa1" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestXssAndEmailCanonicalization" name="GetByUsername_Rejects_Xp_Prefix" />
+    </UnitTest>
+    <UnitTest name="Search_UsesEscapedLikeAndParameters" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="f3f5b662-4f83-2920-aece-5237b58ba36f">
+      <Execution id="e46c9979-05c8-4fc7-a5ce-a93bbf423a91" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestParameterizedQueries" name="Search_UsesEscapedLikeAndParameters" />
+    </UnitTest>
+    <UnitTest name="Submit_Rejects_EmailWithDisplayNameCanonicalization" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="bc1d1142-7d6f-23fe-58dd-04c7e67a2e3d">
+      <Execution id="970c982a-830b-494e-a173-b1ee408d75fe" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestXssAndEmailCanonicalization" name="Submit_Rejects_EmailWithDisplayNameCanonicalization" />
+    </UnitTest>
+    <UnitTest name="Search_Rejects_ScriptLikePayload" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="75f614a6-abcc-cc58-7c44-ceddc64b7562">
+      <Execution id="8d97e1c7-185a-4771-a3b3-c5e3938c557a" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestXssAndEmailCanonicalization" name="Search_Rejects_ScriptLikePayload" />
+    </UnitTest>
+    <UnitTest name="TestForXSS" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="12bf1d9d-0969-c040-3563-d3c6a4070625">
+      <Execution id="6f60e79b-44d1-422e-aef4-6fdb2330e278" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestInputValidation" name="TestForXSS" />
+    </UnitTest>
+    <UnitTest name="Submit_Rejects_JavascriptSchemeInEmail" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="283d3ac6-7ec2-342c-5674-feeda5da634d">
+      <Execution id="a430ed2d-c1f2-4452-994f-72a75b95c812" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestXssAndEmailCanonicalization" name="Submit_Rejects_JavascriptSchemeInEmail" />
+    </UnitTest>
+    <UnitTest name="Login_UnknownUser_Returns401" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="1794aeaa-9a03-a8e1-de8e-7d223883fcee">
+      <Execution id="1a8af827-7fb8-4a16-8e65-7eab92309db4" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestAuth" name="Login_UnknownUser_Returns401" />
+    </UnitTest>
+    <UnitTest name="NonAdmin_Is_Forbidden_On_AdminOnly" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="7000ddf1-a07d-b413-3cac-f36fd85f7ced">
+      <Execution id="b931e516-fb08-4793-8d3f-87984ece2832" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestAuth" name="NonAdmin_Is_Forbidden_On_AdminOnly" />
+    </UnitTest>
+    <UnitTest name="Login_WrongPassword_Returns401" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="e6d5f357-85af-d2ec-ff0b-c1c0d72ddb70">
+      <Execution id="3fc5de27-001d-44c6-b077-3cffbabdb993" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestAuth" name="Login_WrongPassword_Returns401" />
+    </UnitTest>
+    <UnitTest name="Admin_Can_Access_AdminOnly" storage="c:\work\stockdb\security\security.tests\bin\debug\net10.0\security.tests.dll" id="c00e4daa-cfd4-56ad-7d04-258f9d738bdd">
+      <Execution id="d06ee316-bcae-418c-8ca5-40fa5e873823" />
+      <TestMethod codeBase="c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Security.Tests.TestAuth" name="Admin_Can_Access_AdminOnly" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="12bf1d9d-0969-c040-3563-d3c6a4070625" executionId="6f60e79b-44d1-422e-aef4-6fdb2330e278" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="813e766a-68aa-96d4-ad49-2f6e968d9e2a" executionId="c5a5068f-1991-4d46-94f2-7624ec9be846" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3f5b662-4f83-2920-aece-5237b58ba36f" executionId="e46c9979-05c8-4fc7-a5ce-a93bbf423a91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6d5f357-85af-d2ec-ff0b-c1c0d72ddb70" executionId="3fc5de27-001d-44c6-b077-3cffbabdb993" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc1d1142-7d6f-23fe-58dd-04c7e67a2e3d" executionId="970c982a-830b-494e-a173-b1ee408d75fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67be912c-1e5d-bb00-43f4-79a352f5d563" executionId="ac296acc-81db-4362-914b-1fdaa64695c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c00e4daa-cfd4-56ad-7d04-258f9d738bdd" executionId="d06ee316-bcae-418c-8ca5-40fa5e873823" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7000ddf1-a07d-b413-3cac-f36fd85f7ced" executionId="b931e516-fb08-4793-8d3f-87984ece2832" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="283d3ac6-7ec2-342c-5674-feeda5da634d" executionId="a430ed2d-c1f2-4452-994f-72a75b95c812" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ef205da-2fac-160d-6f08-4413aee8602a" executionId="662e684a-5a50-444d-a779-8698f65ed638" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9f47d1f-61fc-44f0-d272-d67394bedcf8" executionId="4a96509b-4b33-42b2-8c87-f8e16e39304b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92940694-c582-0922-eeca-42a4f78224d7" executionId="9609e7bd-82e3-4f48-87e4-1bb70e4237e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75f614a6-abcc-cc58-7c44-ceddc64b7562" executionId="8d97e1c7-185a-4771-a3b3-c5e3938c557a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1794aeaa-9a03-a8e1-de8e-7d223883fcee" executionId="1a8af827-7fb8-4a16-8e65-7eab92309db4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c93efb03-643b-73a9-daf4-fcadb5dd9c16" executionId="73a7499b-d3fa-4f71-a7e8-94b2790daaa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running all tests in c:\Work\Stockdb\Security\Security.Tests\bin\Debug\net10.0\Security.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 15 of 15 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: c:\Work\Stockdb\Security\Security&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
