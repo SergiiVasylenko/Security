@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "TH4LDQzKJ2o=",
+  "success": true,
+  "projectFilePath": "C:\\Work\\Stockdb\\Security\\Security\\Security.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SergiiVasylenko(Ext)\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "C:\\Users\\SergiiVasylenko(Ext)\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/apps-its-us-deloitte/_packaging/USITSDAS-Private-ClientWorkplaceExperience-PreRelease/nuget/v3/index.json.",
+      "projectPath": "C:\\Work\\Stockdb\\Security\\Security\\Security.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Work\\Stockdb\\Security\\Security\\Security.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
